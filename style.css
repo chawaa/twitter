@@ -274,9 +274,17 @@ a.list-circle>div{
 }
 .yoniu-user-nickname{
 	font-weight: bolder;
+	max-height: 24px;
+        overflow: hidden;
+        position: relative;
+        word-break: break-all;
 }
 .yoniu-user-name{
 	color: var(--contentcolor);
+	max-height: 24px;
+       overflow: hidden;
+       position: relative;
+       word-break: break-all;
 }
 .yoniu-user-btn{
 	padding-right: 10px;

@@ -542,11 +542,8 @@ a.list-circle>div{
     background-position: 50% 50%;
     background-size: cover;
     overflow: hidden;
-	background-image: var(--authorimg);
-	transform: scale(1.1);
-    -webkit-filter: brightness(90%) blur(2px);
-    filter: brightness(90%) blur(2px);
-	z-index: -1;
+    background-image: var(--authorimg);
+    z-index: -1;
 }
 .yoniu-author-box-background::before {
     content: '';
